@@ -1,0 +1,125 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #f5f5f5;
+  margin: 60px 60px;
+  padding: 5px 22px;
+  line-height: 17px;
+}
+/* Header */
+.header h4 {
+  margin-bottom: 0.1rem;
+}
+.header p {
+  font-size: 70%;
+}
+.header span {
+  font-weight: bolder;
+  color: #222222;
+  text-shadow: 1px 0 #222222;
+}
+/* Card */
+.shadow-style {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.main .list-group {
+  margin-bottom: -20px;
+}
+.main .list-group-item {
+  border: none;
+  padding: 0.2rem 1.25rem;
+}
+.call-to-action {
+  background-color: #0072ea;
+  border-color: #0072ea;
+  padding: 8px 20px;
+}
+.call-to-action:hover {
+  cursor: pointer;
+  background-color: #143fb8;
+  border-color: #143fb8;
+  padding: 8px 20px;
+}
+.dollar {
+  font-size: 12px;
+  position: relative;
+  bottom: 10px;
+}
+.card-img-overlay {
+  position: initial;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 0;
+}
+.card-img-overlay img {
+  position: absolute;
+  left: 0;
+  top: 131px;
+  width: 28%;
+}
+.card h5 {
+  color: #000;
+}
+/* Card Icons & Images */
+.star-rating {
+  background-image: url("../img/star.svg");
+  background-position: left center;
+  background-repeat: repeat-x;
+  padding-left: 31%;
+}
+.half-star-rating {
+  background-image: url("../img/star-half.svg");
+  background-position: left center;
+  background-repeat: repeat-x;
+  padding-left: 17px;
+}
+.calendar {
+  background-image: url("../img/calendar.svg");
+  background-position: left center;
+  background-repeat: no-repeat;
+  padding-left: 19px;
+}
+.clock {
+  background-image: url("../img/clock.svg");
+  background-position: left center;
+  background-repeat: no-repeat;
+  padding-left: 19px;
+}
+.pin {
+  background-image: url("../img/pin.svg");
+  background-position: left center;
+  background-repeat: no-repeat;
+  padding-left: 19px;
+}
+.info {
+  background-image: url("../img/tooltip.svg");
+  background-position: left center;
+  background-repeat: no-repeat;
+  padding-left: 19px;
+}
+/* Tooltip */
+.tooltip-inner {
+  max-width: 200px;
+  padding: 3px 10px;
+  margin-left: 110px;
+  color: #fff;
+  font-size: 12px;
+  text-align: left;
+  background-color: #212121;
+  border-radius: 2px;
+}
+.tooltip.bs-tooltip-auto[x-placement^="top"] .arrow::before,
+.tooltip.bs-tooltip-top .arrow::before {
+  border-top-color: transparent;
+}
+/* Itinerary */
+.name:hover {
+  cursor: pointer;
+  overflow: visible;
+  white-space: normal;
+  height: auto;
+}
+.long-text {
+  display: none;
+}
